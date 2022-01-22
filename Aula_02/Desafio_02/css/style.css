@@ -9,8 +9,8 @@ img{
     border-color: indigo;
     float: left;
 }
-img.topper{
-    display: inline-block;
+.topper{
+    display: flex;
 }
 h1{
     float: inherit;
