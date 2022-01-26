@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 html{
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
     font-family: 'Montserrat', sans-serif;
     background-image: url(../img/background_zoom.png);
     background-size:auto;
+}
+img.profile{
+    height: 10rem;
+    width: auto;
+    border-radius: 50%;
+}
+div.container{
+    flex-direction: row-reverse;
+    display: flex;
+}
+div.item001{
+    
+}
+
+div.item002{
+    align-self: center;
+    padding-right: 4rem;
+    font-size:larger;
+    color: aliceblue;
 }
