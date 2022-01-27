@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: darkslategrey;
+    background-image: url(../../../Projeto_01/img/background_zoom.png);
+    background-size: auto;
+    color: whitesmoke;
+}
+footer{
+    font-size: small;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 2.5rem; 
+}
+
+/* link não visitado */
+a:link {
+    color: lightgray;
+  }
+  
+  /* link já visitado */
+  a:visited {
+    color: lightblue;
+  }
+  
+  /* mouse sobre o link */
+  a:hover {
+    color: lightskyblue;
+  }
+  
+  /* link selecionado */
+  a:active {
+    color: lightseagreen;
+  }
+div.container{
+    flex-direction: column;
+    display: flex;
+}
+div.rowsrev{
+    flex-direction: row-reverse;
+    display: flex;
+}
