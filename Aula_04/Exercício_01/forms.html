@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularious</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/onichan.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="forms">
+        <form action="" onsubmit="pooh();">
+            <label for="text">Nome:</label>
+            <input type="text" name="nome" id="1a" placeholder="Insira seu nome uwu">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="1b" placeholder="Inisira sua senha uwu">
+            <div class="selec">
+                Selecione o seu curso:
+                <select name="course" id="1c">
+                    <option value="course1">Web Full Stack</option>
+                    <option value="course2">Python</option>
+                    <option value="course3">Data Science</option>
+                    <option value="course4">Web & React</option>
+                </select>
+            </div>
+            <div class="txt">
+                <label for="talk">Bio:</label>
+                <textarea name="talk" id="1d" cols="30" rows="10" placeholder="Talk about yerself uwu"></textarea>
+            </div>
+            <input type="reset" value="Limpar campos">
+            <input type="submit" value="Enviar tudo para a china">
+        </form>
+    </div>
+</body>
+</html>
