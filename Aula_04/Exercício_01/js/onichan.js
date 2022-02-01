@@ -1,4 +1,4 @@
 function pooh(){
     alert("9999999999999 social credits added!\n9999999999999社會信用已添加！");
-    return window.location.href = "https://bearusumyo.github.io/letscodesandbox/Aula_04/Exerc%C3%ADcio_01/dynaimg.html";
+    return window.location.href = "https://bearusumyo.github.io/letscodesandbox/Aula_04/Exercício_01/dynaimg.html";
 }
