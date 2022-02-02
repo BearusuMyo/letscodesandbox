@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+
+body{
+
+    background-color: whitesmoke;
+}
+
+h1.headers{
+    font-family: 'Google Sans';
+    color: white;
+    background: darkblue;
+}
+h2.name{
+    font-family: 'Google Sans';
+    color: white;
+    background: darkblue;
+}
+h2.htmlcode{
+    font-family: 'Google Sans';
+    color: white;
+    background: #00008b;
+}
+h2.rgb{
+    font-family: 'Google Sans';
+    color: white;
+    background: rgb(0, 0, 138);
+}
+h2.hsl{
+    font-family: 'Google Sans';
+    color: white;
+    background: hsl(240, 100%, 27%);
+}
+
+h2.transparency{
+    font-family: 'Google Sans';
+    color: white;
+    background: #00008bd4;
+}
+p.paragraphs{
+    font-family: 'Consolas';
+    color: whitesmoke;
+    background-color: grey;
+    text-align: center;
+}
