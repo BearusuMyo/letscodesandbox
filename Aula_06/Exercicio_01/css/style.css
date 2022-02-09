@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+html{
+    font-family: "Google Sans";
+}
+
+div.noticia {
+    width: 100%;
+    background: #f3f3f3;
+    background-size: auto;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid #5f5f5f;
+}
+
+img {
+    width: 100%;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /*grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0.5em;*/
+    grid-auto-flow: minmax(400px, auto);
+    grid-gap: 0.5em;
+}
